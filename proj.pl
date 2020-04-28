@@ -456,10 +456,4 @@ resolve_aux(Pals_Possiveis, Pals_Possiveis).
 resolve(Puz) :-
     inicializa(Puz, Pals_Possiveis),
     resolve_aux(Pals_Possiveis, _).
-    
-
-
-
-
-
-
+   
